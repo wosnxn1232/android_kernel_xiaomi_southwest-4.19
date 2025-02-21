@@ -13,7 +13,7 @@ jobs:
         with:
           kernel-url: https://github.com/wosnxn1232/android_kernel_xiaomi_southwest-4.19
           kernel-branch: main
-          config: sdm660-perf_defconfig
+          config: vendor/sdm660-perf_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
